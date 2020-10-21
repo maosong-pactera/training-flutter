@@ -59,7 +59,7 @@ export PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 如果你希望通过 `Android Studio` 开发 `Flutter` 应用，可以按下图安装插件：
 
-!> 安装插件之前请 `关闭` 上文中提到的国内代理，否则无法搜索
+!> macOS版本 `Android Studio` 安装插件之前请 `关闭` 上文中提到的国内代理，否则无法搜索
 
 !> 如果插件下载失败多试几次就可以，或者直接科学上网
 
@@ -69,7 +69,7 @@ export PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 ## Visual Studio Code 插件
 
-`Android Studio` 非常消耗系统资源，如果你的内存较少建议使用 `Visual Studio Code` 进行开发，`Flutter` 对它支持也非常好。以下是需要安装的插件：
+`Android Studio` 非常消耗系统资源，如果你的内存较少建议使用 `Visual Studio Code` 进行开发，`Flutter` 对其支持非常友好。以下是需要安装的插件：
 
 ![](./images/visual-studio-code-extensions.png)
 
@@ -126,17 +126,17 @@ export PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 2、解压缩 `flutter_macos_1.22.2-stable.zip` 到任意文件夹。
 
-3、执行如下命令，接受 Android Licenses，当提示是否接受许可时输入 `y`
-
-```bash
-$ flutter doctor --android-licenses
-```
-
-4、修改 `~/.zshrc` 文件添加以下命令，为 `Flutter` 设置 `PATH`
+3、修改 `~/.zshrc` 文件添加以下命令，为 `Flutter` 设置 `PATH`
 
 ```bash
 # Flutter
 export PATH=/PATH/TO/flutter/bin:$PATH
+```
+
+4、执行如下命令，接受 Android Licenses，当提示是否接受许可时输入 `y`
+
+```bash
+$ flutter doctor --android-licenses
 ```
 
 5、为 `Flutter` 设置 `国内镜像`
@@ -185,7 +185,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 一般来说会出现的两处问题：
 
 - 虽然 `Android Studio 4.1` 已经正确配置，但依然提示找不到 `Flutter` 和 `Dart` 插件，预计 `Flutter 1.23` 会解决此BUG
-- `No devices available` 是因为没有通过USB连接手机，或者未启动Android/iOS仿真器
+- `No devices available` 是因为没有通过USB连接手机，或者未启动 Android/iOS 仿真器
 
 ## Flutter SDK 升级
 
