@@ -4,3 +4,4 @@
     * [Windows 开发环境](lesson-01/windows.md)
     * [macOS 开发环境](lesson-01/macos.md)
     * [Linux 开发环境](lesson-01/linux.md)
+    * [Flutter 骨架](lesson-01/skeleton.md)
