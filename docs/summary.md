@@ -3,5 +3,5 @@
     * [Windows 开发环境](lesson-01/windows.md)
     * [macOS 开发环境](lesson-01/macos.md)
     * [Linux 开发环境](lesson-01/linux.md)
-    * [Dart 语言](lesson-01/dart.md)
+    * [Flutter 框架和 Dart 语言](lesson-01/flutter-dart.md)
     * [Flutter 脚手架](lesson-01/skeleton.md)
